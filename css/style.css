@@ -3,6 +3,13 @@ div, label, div, input, button {
     color: #0F1C3A;
 }
 
+@media only screen and (max-width: 320px) {
+    h1 {
+        margin-top: 0 !important;
+        font-size: 3.1em !important;
+    }
+}
+
 @media only screen and (max-width: 767px) {
     body {
         text-align: center !important;
@@ -10,7 +17,11 @@ div, label, div, input, button {
 
     h1 {
         margin-top: 0 !important;
-        font-size: 3.1em !important;
+        font-size: 2.8em !important;
+    }
+
+    h2 {
+        font-size: 1.4em !important;
     }
 
     #avatar {
