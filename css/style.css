@@ -27,3 +27,8 @@ h1 {
 p {
     font-size: 16px !important;
 }
+
+.ui.icon.circular.large {
+    height: 42px !important;
+    width: 42px !important;
+}
