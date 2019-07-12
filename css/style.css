@@ -3,7 +3,7 @@ div, label, div, input, button {
     color: #0F1C3A;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     body {
       text-align: center !important;
     }
@@ -22,11 +22,6 @@ h1 {
 .button:hover {
     transition: 0.3s;
     background-color: #2050A3 !important;
-}
-
-#avatar {
-    height: 400px;
-    width: 400px;
 }
 
 p {
