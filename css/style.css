@@ -5,7 +5,20 @@ div, label, div, input, button {
 
 @media only screen and (max-width: 767px) {
     body {
-      text-align: center !important;
+        text-align: center !important;
+    }
+
+    h1 {
+        margin-top: 0 !important;
+        font-size: 3.1em !important;
+    }
+
+    #avatar {
+        padding-bottom: 4px !important;
+    }
+
+    #text {
+        padding-top: 4px !important;
     }
 }
 
