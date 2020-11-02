@@ -1,5 +1,5 @@
 div, label, div, input, button {
-    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Montserrat', sans-serif !important;
     color: #0F1C3A;
 }
 
@@ -34,52 +34,20 @@ div, label, div, input, button {
 }
 
 h1 {
-    font-family: Poppins;
-    font-size: 30px;
-  font-weight: 800;
-  line-height: 2.33;
-  color: #161d2c;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 4em;
 }
 
 .button {
-    /* background-color: #0F1C3A !important; */
+    background-color: #0F1C3A !important;
     color: white !important;
 }
 
 .button:hover {
     transition: 0.3s;
-    /* background-color: #2050A3 !important; */
+    background-color: #2050A3 !important;
 }
 
 p {
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    color: #161d2c;
-}
-
-#about {
-    margin-left: 40px !important;
-    margin-right: 40px !important;
-}
-
-#resume {
-    margin-right: 0 !important;
-}
-
-#footer {
-    /* height: 100px; */
-  background-color: #161d2c;
-}
-
-/* .footer {
-    margin-top: 19px !important;
-} */
-
-.button {
-    background-color: rgba(0, 0, 0, 0) !important;
+    font-size: 16px !important;
 }
