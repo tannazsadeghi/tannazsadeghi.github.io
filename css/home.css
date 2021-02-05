@@ -1,0 +1,126 @@
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 32px;
+}
+
+header h1 {
+    font-weight: 800;
+}
+header p {
+    font-size: 18px;
+}
+
+.tannaz-image {
+    margin-right: 36px;
+    flex-basis: 160px;
+}
+
+.tannaz-image img {
+    max-width: 160px;
+    z-index: 200;
+}
+
+header > div {
+    margin-top: 32px;
+    flex-basis: 600px;
+}
+
+.work-sample {
+    margin: 32px;
+    background-color: rgba(237,242,249, 0.4);
+    border-radius: 16px;
+}
+
+.work-sample .link {
+    padding: 24px 24px 24px 24px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-sample img {
+    margin-right: 30px;
+    max-width: 100%;
+}
+
+.work-sample img:last-of-type {
+    display: none;
+}
+.work-sample:hover img:last-of-type {
+    display: block;
+}
+.work-sample:hover img:first-of-type {
+    display: none;
+}
+
+
+.work-sample h2 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.read-more {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    padding-right: 8px;
+    font-weight: 500;
+    color: #0e5cf7;
+}
+
+.work-sample a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.sample-title {
+    flex-basis: 293px;
+}
+
+.work-sample .arrow {
+    margin-left: 8px;
+}
+.work-sample .arrow div {
+    width: 2px;
+    height: 6px;
+    background-color: #0e5cf7;
+}
+
+.work-sample .arrow div{
+    transition: all ease-out 0.2s;
+}
+
+.work-sample:hover .arrow div:first-child{
+    transform: rotate(-45deg) translateY(2px);
+}
+.work-sample:hover .arrow div:last-child{
+    transform: rotate(45deg) translateY(-2px);
+}
+
+
+
+@media only screen and (min-width: 945px) {
+    .sample-title {
+        margin-top: 0;
+    }
+    header {
+        justify-content: flex-start;
+        margin: 0;
+    }
+    .work-sample {
+        justify-content: flex-start;
+        margin: 32px 0 0 0;
+    }
+    .work-sample h2 {
+        margin-top: 0
+    }
+}
+
+

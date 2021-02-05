@@ -1,52 +1,137 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!doctype html>
+<html id="top" lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name=viewport content="width=device-width, initial-scale=1">
-    <script src="semantic/dist/semantic.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,800&display=swap" rel="stylesheet">
-    <title>tannaz sadeghi</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tannaz Sadeghi</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
-<div class="ui stackable grid">
-    <div class="row"></div>
-    <div class="row"></div>
-    <div class="row"></div>
-    <div class="two wide column"></div>
-    <div class="five wide middle aligned column" id="avatar">
-        <img class="ui fluid image" src="assets/tannaz.gif" alt="avatar"/>
+
+<nav id="nav">
+    <div class="nav-content">
+        <ul class="menu">
+            <li>Works</li>
+            <li><a href="/about">About</a></li>
+            <li>Resume</li>
+        </ul>
     </div>
-    <div class="eight wide middle aligned column" id="text">
-        <div class="row"></div>
-        <h1>hi, i'm tannaz!</h1>
-        <h2>a digital product designer based in iran.</h2>
-        <p>i strive to create beautiful solutions, spectacular sights and aesthetic visions.</p>
-        <p>
-            ____
-            <br/>
-            see my <a href="assets/tannazsadeghi-resume.pdf" target="_blank">resumé</a>
-            <br/>
-            or get in touch about projects
-            <br/>
-        </p>
+</nav>
+
+<main class="main">
+    <header>
+        <div class="tannaz-image">
+            <img id="tannaz" src="assets/tannaz.gif"/>
+        </div>
         <div>
-            <a href="mailto:tz.sadeghi@outlook.com" class="ui icon circular large button">
-                <i class="mail outline icon"></i>
-            </a>
-            <a href="https://dribbble.com/tannazsadeghi" class="ui icon circular large button" target="_blank">
-                <i class="dribbble icon"></i>
-            </a>
-            <a href="https://www.instagram.com/tz.sadeghi/" class="ui icon circular large button" target="_blank">
-                <i class="instagram icon"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/tannazsadeghi/" class="ui icon circular large button" target="_blank">
-                <i class="linkedin alternate icon"></i>
-            </a>
+            <h1>Hello, I'm Tannaz!</h1>
+            <p>
+                A product designer currently working at Snapp!, designing the passenger's experience and everything
+                in-between.
+            </p>
+        </div>
+    </header>
+
+
+    <article class="work-sample">
+        <a href="samples/change-dest" class="link">
+            <img src="assets/works/change-dest.png" alt="Change Destination Photo"/>
+            <img src="assets/works/change-dest-colored.png" alt="Change Destination Photo"/>
+            <div class="sample-title">
+                <h2>Snapp! Change Destination Feature</h2>
+                <div class="read-more">
+                    Read more
+                    <div class="arrow">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </article>
+
+    <article class="work-sample">
+        <a href="works/change-dest" class="link">
+            <img src="assets/works/vouchers.png" alt="Change Destination Photo"/>
+            <img src="assets/works/vouchers-colored.png" alt="Change Destination Photo"/>
+            <div class="sample-title">
+                <h2>Snapp! Voucher and Rewards Feature</h2>
+                <div class="read-more">
+                    Read more
+                    <div class="arrow">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </article>
+
+    <article class="work-sample">
+        <a href="samples/change-dest" class="link">
+            <img src="assets/works/chat.png" alt="Change Destination Photo"/>
+            <img src="assets/works/chat-colored.png" alt="Change Destination Photo"/>
+            <div class="sample-title">
+                <h2>Snapp! Chat Module Feature</h2>
+                <div class="read-more">
+                    Read more
+                    <div class="arrow">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </article>
+
+    <article class="work-sample">
+        <a href="samples/change-dest" class="link">
+            <img src="assets/works/team-app.png" alt="Change Destination Photo"/>
+            <img src="assets/works/teamapp-colored.png" alt="Change Destination Photo"/>
+            <div class="sample-title">
+                <h2>TeamApp's Affiliate Program Landing Page Design</h2>
+                <div class="read-more">
+                    Read more
+                    <div class="arrow">
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </article>
+</main>
+
+<footer>
+    <div class="footer-content">
+        <div>© 2021 Tannaz Sadeghi</div>
+        <div class="padding"></div>
+        <div class="social">
+            <a href="mailto:tz.sadeghi@outlook.com" target="_blank"><img src="assets/icons/icon-mail.svg" alt="mail"/></a>
+            <a href="https://www.linkedin.com/in/tannazsadeghi/" target="_blank"><img src="assets/icons/icon-linkedin.svg"
+                                                                                      alt="linkedin"/></a>
+            <a href="https://dribbble.com/tannazsadeghi" target="_blank"><img src="assets/icons/icon-dribbble.svg"
+                                                                              alt="dribble"/></a>
+            <a href="https://www.instagram.com/tz.sadeghi/" target="_blank"><img src="assets/icons/icon-instagram.svg"
+                                                                                 alt="instagram"/></a>
         </div>
     </div>
-    <div class="one wide column"></div>
-</div>
+    <a class="top-link" href="#top">
+        <div class="arrow">
+            <div></div>
+            <div></div>
+        </div>
+        <div class="link">
+            Top
+        </div>
+    </a>
+</footer>
+<script src="js/script.js"></script>
 </body>
 </html>
+
