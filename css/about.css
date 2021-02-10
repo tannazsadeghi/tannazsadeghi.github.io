@@ -32,7 +32,6 @@
 
 .content {
     display: flex;
-    align-items: flex-start;
     flex-wrap: wrap;
     margin-top: 90px;
     margin-left: 32px;
