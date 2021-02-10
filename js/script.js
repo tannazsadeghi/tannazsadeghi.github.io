@@ -7,6 +7,7 @@ const BORDER_POS = 34;
 
 const nav = document.getElementById('nav');
 const tannaz = document.getElementById('tannaz');
+const tannazNav = document.getElementById('tannaz-nav');
 
 function showBorder() {
   console.log("showing border");
@@ -14,8 +15,8 @@ function showBorder() {
 
   if (nav.classList.contains('background-green')) {
     console.log("contains background-green");
-    nav.style.backgroundColor = '#e6f3e2';
-    nav.style.borderBottom = 'solid 2px #fefefe';
+    nav.style.transition='background-color 0.2s ease';
+    nav.style.backgroundColor = 'white';
   }
 
   showingBorder = true;
@@ -31,24 +32,24 @@ function hideBorder() {
 }
 
 function smallTannaz() {
-  if (!tannaz) {
+  if (!tannaz || !tannazNav) {
     return;
   }
-  console.log("smalling tannaz");
-  tannaz.src = 'assets/tannaz-nav.png';
-  tannaz.style.position = 'fixed';
-  tannaz.style.top = '18px';
-  tannaz.style.maxHeight = '32px';
+  tannazNav.style.visibility = 'visible';
+  tannazNav.style.animation = '0.4s fadeIn';
+  tannaz.style.visibility ='hidden';
+  tannaz.style.animation = '';
   isTannazSmall = true;
 }
 
 function bigTannaz() {
-  if (!tannaz) {
+  if (!tannaz || !tannazNav) {
     return;
   }
-  tannaz.src = 'assets/tannaz.gif';
-  tannaz.style.position = 'inherit';
-  tannaz.style.maxHeight = 'inherit';
+  tannazNav.style.visibility = 'hidden';
+  tannazNav.style.animation = '';
+  tannaz.style.visibility ='visible';
+  tannaz.style.animation = '0.4s fadeIn';
   isTannazSmall = false;
 }
 
@@ -79,3 +80,4 @@ document.addEventListener('scroll', function (e) {
     ticking = true;
   }
 });
+

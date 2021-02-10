@@ -7,10 +7,13 @@
 html {
     scroll-behavior: smooth;
 }
+
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
+    color: #161d2c;
 }
+
 .main, .nav-content {
     max-width: 945px;
     margin: 0 auto;
@@ -19,14 +22,37 @@ body {
 nav {
     background-color: white;
     padding-right: 32px;
-    padding-top: 24px;
-    height: 69px;
     position: sticky;
     top: 0;
     z-index: 100;
 }
 
+.nav-content {
+    height: 69px;
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    max-width: 160px;
+    margin-left: 32px;
+    max-height: 32px;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
 .menu {
+    flex: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -37,10 +63,12 @@ nav {
     list-style-type: none;
     color: #a8afb8;
 }
+
 .menu li a {
     text-decoration: none;
     color: #a8afb8;
 }
+
 .main {
     margin-top: 32px;
 }
@@ -50,8 +78,8 @@ footer {
     background-color: #161d2c;
     color: white;
     display: flex;
-    padding-right: 22px;
-    padding-left: 42px;
+    padding-right: 16px;
+    padding-left: 16px;
 }
 
 .footer-content {
@@ -64,6 +92,7 @@ footer {
     align-items: center;
     font-weight: bold;
 }
+
 .top-link {
     display: flex;
     justify-content: center;
@@ -73,6 +102,7 @@ footer {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    width: 40px;
 }
 
 .top-link .link {
@@ -84,26 +114,30 @@ footer {
     display: flex;
     margin-bottom: 18px;
 }
+
 .top-link .arrow div {
     width: 8px;
     height: 2px;
     background-color: white;
 }
 
-.top-link .arrow div{
-    transition: all ease-out 0.2s;
+.top-link .arrow div {
+    transition: all ease 0.2s;
 }
 
-.top-link:hover .arrow div:first-child{
+
+.top-link:hover .arrow div:first-child {
     transform: rotate(-45deg) translateX(2.666px);
 }
-.top-link:hover .arrow div:last-child{
+
+.top-link:hover .arrow div:last-child {
     transform: rotate(45deg) translateX(-2.666px);
 }
 
 .padding {
     flex: 1
 }
+
 .social {
     justify-self: flex-end;
     padding-right: 32px;
@@ -113,16 +147,36 @@ footer {
     margin-left: 24px;
 }
 
+.social img:hover {
+    opacity: 0.6;
+}
+
+.preload * {
+    animation: initial !important;
+}
 
 @media only screen and (min-width: 945px) {
     .main {
         margin-top: 25px;
     }
+
     nav {
         padding-right: 0;
     }
+
     .social {
         padding-right: 0;
+    }
+
+    nav img {
+        max-width: 160px;
+        margin-left: 0;
+        max-height: 32px;
+    }
+
+    footer {
+        padding-right: 22px;
+        padding-left: 62px;
     }
 }
 
