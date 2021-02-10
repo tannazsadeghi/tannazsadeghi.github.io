@@ -216,6 +216,7 @@ main img {
     margin-top: 24px;
     display: flex;
     justify-content: center;
+    align-items: flex-start;
 }
 
 .margin-top-0 {

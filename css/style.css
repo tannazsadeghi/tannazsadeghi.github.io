@@ -64,6 +64,7 @@ nav img {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
+    align-items: flex-start;
 }
 
 .menu li {
@@ -86,6 +87,7 @@ footer {
     background-color: #161d2c;
     color: white;
     display: flex;
+    align-items: flex-start;
     padding-right: 16px;
     padding-left: 16px;
 }
@@ -120,6 +122,7 @@ footer {
 
 .top-link .arrow {
     display: flex;
+    align-items: flex-start;
     margin-bottom: 18px;
 }
 
