@@ -206,10 +206,10 @@ nav {
     margin-top: 48px;
     display: flex;
     justify-content: center;
+    align-items: flex-start;
 }
 main img {
     max-width: 100%;
-    height: 100% !important;
 }
 
 .work-image-normal{
