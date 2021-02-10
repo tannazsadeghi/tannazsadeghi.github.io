@@ -17,6 +17,10 @@ body {
 .menu .active a{
     color: #161d2c;
 }
+.menu li:hover a {
+    color: #0e5cf7;
+}
+
 
 .main, .nav-content {
     max-width: 945px;
