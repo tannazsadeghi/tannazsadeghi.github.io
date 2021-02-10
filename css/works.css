@@ -26,6 +26,11 @@ nav {
     max-width: 100%;
 }
 
+.teamapp .work-header img {
+    display: block;
+    max-width: 100%;
+}
+
 .change-dest .work-header {
     margin: 0 auto;
     position:relative;
@@ -58,7 +63,13 @@ nav {
     clear: left;
 }
 
-.vouchers,.chat .work-header {
+.vouchers .work-header {
+    background-image: none;
+}
+.chat .work-header {
+    background-image: none;
+}
+.teamapp .work-header {
     background-image: none;
 }
 
@@ -73,6 +84,10 @@ nav {
 
 .chat .work-container {
     background-color: #ddebeb;
+}
+
+.teamapp .work-container {
+    background-color: #d3dbee;
 }
 
 .chat ol li{
@@ -115,6 +130,12 @@ nav {
     min-height: initial;
     padding-bottom: 4px;
 }
+
+.teamapp .work-article .work-text {
+    min-height: initial;
+    padding-bottom: 4px;
+}
+
 .chat .work-team {
     max-width: 530px;
 }
@@ -170,6 +191,11 @@ nav {
     padding-bottom: 48px;
 }
 
+.back-blue {
+    width: 100%;
+    background-color: rgba(237,242,249,0.4);
+    padding-bottom: 40px;
+}
 .back-black {
     background-color: #161d2c;
     color: white;
@@ -189,12 +215,24 @@ main img {
     justify-content: center;
 }
 
+.margin-top-0 {
+    margin-top: 0;
+}
+
 .margin-top-24 {
     margin-top: 24px;
 }
 
 .margin-top-29 {
     margin-top: 29px;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.margin-top-63 {
+    margin-top: 63px;
 }
 
 .margin-top-72 {
@@ -218,6 +256,9 @@ main img {
     padding-bottom: 49px;
 }
 
+.padding-bottom-51 {
+    padding-bottom: 51px;
+}
 
 .padding-bottom-54 {
     padding-bottom: 54px;
@@ -343,6 +384,12 @@ footer {
         margin: 38px auto 0 auto;
     }
     .chat .work-header img {
+        display: block;
+        max-width: 1070px;
+        margin: 40px auto 0 auto;
+    }
+
+    .teamapp .work-header img {
         display: block;
         max-width: 1070px;
         margin: 40px auto 0 auto;

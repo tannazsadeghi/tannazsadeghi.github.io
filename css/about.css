@@ -21,9 +21,9 @@
 .tannaz-image img {
     max-width: 160px;
     z-index: 200;
-    position: fixed;
-    top: 18px;
+    visibility: visible;
     max-height: 32px;
+    display: block;
 }
 
 .tannaz-real {

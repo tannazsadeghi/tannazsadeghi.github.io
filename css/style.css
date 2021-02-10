@@ -14,6 +14,10 @@ body {
     color: #161d2c;
 }
 
+.menu .active a{
+    color: #161d2c;
+}
+
 .main, .nav-content {
     max-width: 945px;
     margin: 0 auto;
