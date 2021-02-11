@@ -46,6 +46,9 @@ nav img {
     margin-left: 32px;
     max-height: 32px;
     animation-fill-mode: forwards;
+}
+
+#tannaz-nav {
     visibility: hidden;
 }
 
