@@ -15,8 +15,8 @@ header p {
 }
 
 .tannaz-image {
-    margin-right: 36px;
     flex-basis: 160px;
+    margin-top: 0;
 }
 
 .tannaz-image img {
@@ -157,6 +157,10 @@ header > div {
     }
     .work-sample h2 {
         margin-top: 0
+    }
+
+    .tannaz-image {
+        margin-right: 36px;
     }
 }
 
