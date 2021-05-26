@@ -109,6 +109,11 @@ nav {
     padding-left: 32px;
     padding-right: 32px;
 }
+
+.last-work-article {
+    padding-top: 0px !important;
+}
+
 .work-article h2 {
     font-size: 18px;
     font-weight: 800;
@@ -145,6 +150,7 @@ nav {
     text-align: center;
     color: #a8afb8;
 }
+
 .work-article .work-text-normal {
     max-width: 750px;
     margin-top: 24px;
@@ -195,25 +201,28 @@ nav {
     background-color: rgba(237,242,249,0.4);
     padding-bottom: 40px;
 }
+
 .back-black {
     background-color: #161d2c;
     color: white;
 }
-.work-image{
+
+.work-image {
     margin-top: 48px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
 }
-main img {
-    max-width: 100%;
-}
 
-.work-image-normal{
+.work-image-normal {
     margin-top: 24px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
+}
+
+main img {
+    max-width: 100%;
 }
 
 .margin-top-0 {
@@ -240,6 +249,9 @@ main img {
     margin-top: 72px;
 }
 
+.padding-bottom-negative-40 {
+    padding-bottom: -40px;
+}
 
 .padding-bottom-0 {
     padding-bottom: 0;
@@ -264,7 +276,6 @@ main img {
 .padding-bottom-54 {
     padding-bottom: 54px;
 }
-
 
 .padding-bottom-55 {
     padding-bottom: 55px;
@@ -292,6 +303,7 @@ main img {
 .pagination-content .padding {
     flex: 1;
 }
+
 .pagination-content a {
     text-decoration: none;
     color: #0e5cf7;
@@ -299,6 +311,7 @@ main img {
     display: flex;
     align-items: center;
 }
+
 .pagination-content a:last-of-type {
     text-decoration: none;
     color: #0e5cf7;
@@ -335,6 +348,7 @@ footer {
 .next-page:hover .arrow div:first-child{
     transform: rotate(-45deg) translateY(3px);
 }
+
 .next-page:hover .arrow div:last-child{
     transform: rotate(45deg) translateY(-3px);
 }
@@ -342,6 +356,7 @@ footer {
 .prev-page:hover .arrow div:first-child{
     transform: rotate(45deg) translateY(3px);
 }
+
 .prev-page:hover .arrow div:last-child{
     transform: rotate(-45deg) translateY(-3px);
 }
@@ -356,7 +371,7 @@ footer {
         padding-right: 0;
     }
 
-    .work-article-back .work-team{
+    .work-article-back .work-team {
         padding-left: 0;
         padding-right: 0;
     }
@@ -394,5 +409,15 @@ footer {
         display: block;
         max-width: 1070px;
         margin: 40px auto 0 auto;
+    }
+
+    .vouchers .work-image-normal img {
+        /* max-width: 750px; */
+        height: 600px;
+    }
+    
+    .vouchers .work-image img {
+        /* max-width: 750px; */
+        height: 600px;
     }
 }
