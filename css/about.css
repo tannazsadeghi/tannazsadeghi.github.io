@@ -30,6 +30,10 @@
     margin-top: 32px;
 }
 
+#portrait {
+    max-width: 320px;
+}
+
 .content {
     display: flex;
     flex-wrap: wrap;
