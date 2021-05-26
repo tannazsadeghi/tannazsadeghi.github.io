@@ -361,6 +361,11 @@ footer {
     transform: rotate(-45deg) translateY(-3px);
 }
 
+.chat .work-image img {
+    padding-right: 32px;
+    padding-left: 32px;
+}
+
 @media only screen and (min-width: 945px) {
     .tannaz-image img {
         margin-left: 0;
@@ -412,12 +417,18 @@ footer {
     }
 
     .vouchers .work-image-normal img {
-        /* max-width: 750px; */
         height: 600px;
     }
     
     .vouchers .work-image img {
-        /* max-width: 750px; */
         height: 600px;
+    }
+
+    .chat .work-image img {
+        max-width: 600px;
+    }
+
+    #problem {
+        height: auto;
     }
 }
