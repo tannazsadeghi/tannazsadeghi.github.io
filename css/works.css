@@ -13,9 +13,6 @@ nav {
     visibility: visible;
 }
 
-.nav-content {
-}
-
 .vouchers .work-header img {
     display: block;
     max-width: 100%;
@@ -399,4 +396,3 @@ footer {
         margin: 40px auto 0 auto;
     }
 }
-
