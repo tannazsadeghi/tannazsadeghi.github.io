@@ -362,9 +362,16 @@ footer {
     transform: rotate(-45deg) translateY(-3px);
 }
 
-.chat .work-image img {
-    padding-right: 32px;
-    padding-left: 32px;
+@media only screen and (max-width: 944px) {
+    /* .chat .work-image img {
+        padding-right: 32px;
+        padding-left: 32px;
+    } */
+
+    main img {
+        padding-right: 32px;
+        padding-left: 32px;
+    }
 }
 
 @media only screen and (min-width: 945px) {
@@ -428,6 +435,11 @@ footer {
 
     .chat .work-image img {
         max-width: 600px;
+    }
+
+    .chat .work-image-normal img {
+        /* max-width: 750px; */
+        height: 600px;
     }
 
     .change-dest .work-image img {
