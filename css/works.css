@@ -23,7 +23,7 @@ nav {
     max-width: 100%;
 }
 
-.teamapp .work-header img {
+.video .work-header img {
     display: block;
     max-width: 100%;
 }
@@ -65,10 +65,12 @@ nav {
 .vouchers .work-header {
     background-image: none;
 }
+
 .chat .work-header {
     background-image: none;
 }
-.teamapp .work-header {
+
+.video .work-header {
     background-image: none;
 }
 
@@ -85,14 +87,15 @@ nav {
     background-color: #ddebeb;
 }
 
-.teamapp .work-container {
+.video .work-container {
     background-color: #d3dbee;
 }
 
-.chat ol li{
+.chat ol li {
     padding-left: 17px;
     margin-left: 17px;
 }
+
 .work-header h1 {
     padding-top: 76px;
     margin: 0 auto;
@@ -135,7 +138,7 @@ nav {
     padding-bottom: 4px;
 }
 
-.teamapp .work-article .work-text {
+.video .work-article .work-text {
     min-height: initial;
     padding-bottom: 4px;
 }
@@ -362,15 +365,36 @@ footer {
     transform: rotate(-45deg) translateY(-3px);
 }
 
-@media only screen and (max-width: 944px) {
-    /* .chat .work-image img {
-        padding-right: 32px;
-        padding-left: 32px;
-    } */
+.video .work-image {
+    margin-top: 0;
+    padding-top: 32px;
+}
 
+.video .work-image-normal {
+    margin-top: 0;
+}
+
+/* #what {
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+} */
+
+@media only screen and (max-width: 944px) {
     main img {
         padding-right: 32px;
         padding-left: 32px;
+    }
+
+    /* .video .work-image img {
+        padding-left: 0;
+        padding-right: 0;
+    } */
+
+    .video .work-image-normal img {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
@@ -419,7 +443,7 @@ footer {
         margin: 40px auto 0 auto;
     }
 
-    .teamapp .work-header img {
+    .video .work-header img {
         display: block;
         max-width: 1070px;
         margin: 40px auto 0 auto;
@@ -438,7 +462,6 @@ footer {
     }
 
     .chat .work-image-normal img {
-        /* max-width: 750px; */
         height: 600px;
     }
 
@@ -450,6 +473,15 @@ footer {
         max-width: 100%;
         padding-left: 48px;
         padding-right: 48px;
+    }
+
+    .video .work-image img {
+        /* height: 600px; */
+        max-width: 80%;
+    }
+
+    .video .work-image-normal img {
+        max-width: 100%;
     }
 
     #problem {
