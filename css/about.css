@@ -69,6 +69,10 @@
     margin-bottom: 8px;
 }
 
+.content a {
+    color: #0059ff;
+}
+
 @media only screen and (min-width: 945px) {
     .about-header {
         justify-content: flex-start;
