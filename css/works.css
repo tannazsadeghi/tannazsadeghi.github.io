@@ -100,7 +100,7 @@ nav {
     padding-top: 76px;
     margin: 0 auto;
     text-align: center;
-    max-width: 287px;
+    max-width: 300px;
     font-size: 20px;
     font-weight: 800;
 }
@@ -367,7 +367,6 @@ footer {
 
 .video .work-image {
     margin-top: 0;
-    padding-top: 32px;
 }
 
 @media only screen and (max-width: 944px) {
@@ -376,14 +375,14 @@ footer {
         padding-left: 32px;
     }
 
-    /* .video .work-image img {
-        padding-left: 0;
-        padding-right: 0;
-    } */
-
     .video .work-image-normal img {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    #what {
+        padding-left: 32px;
+        padding-right: 32px;
     }
 }
 
