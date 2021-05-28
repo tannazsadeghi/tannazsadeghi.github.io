@@ -370,17 +370,6 @@ footer {
     padding-top: 32px;
 }
 
-.video .work-image-normal {
-    margin-top: 0;
-}
-
-/* #what {
-    padding-right: 32px;
-    padding-left: 32px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-} */
-
 @media only screen and (max-width: 944px) {
     main img {
         padding-right: 32px;
@@ -476,12 +465,13 @@ footer {
     }
 
     .video .work-image img {
-        /* height: 600px; */
-        max-width: 80%;
+        height: 600px;
     }
 
     .video .work-image-normal img {
-        max-width: 100%;
+        max-width: 88%;
+        padding-left: 48px;
+        padding-right: 48px;
     }
 
     #problem {
