@@ -61,19 +61,25 @@ header > div {
     top: 0;
     left: 0;
     animation-iteration-count: infinite;
-    /* max-width: 531px;
-    margin-right: 30px; */
 }
 
-.work-sample img.image-colored {
+/* .work-sample img.image-colored {
     visibility: hidden;
-    animation: .3s fadeOut;
-}
-.work-sample:hover img.image-colored  {
+    animation: 1s fadeOut;
+} */
+
+.work-sample img.image-gray {
     visibility: visible;
     animation: .3s fadeIn;
 }
-.work-sample:hover img.image-gray  {
+
+/* .work-sample:hover img.image-colored {
+    visibility: visible;
+    animation: 1s fadeIn;
+} */
+
+.work-sample:hover img.image-gray {
+    visibility: hidden;
     animation: .3s fadeOut;
 }
 
@@ -105,6 +111,7 @@ header > div {
 .work-sample .arrow {
     margin-left: 8px;
 }
+
 .work-sample .arrow div {
     width: 2px;
     height: 6px;
@@ -118,6 +125,7 @@ header > div {
 .work-sample:hover .arrow div:first-child{
     transform: rotate(-45deg) translateY(2px);
 }
+
 .work-sample:hover .arrow div:last-child{
     transform: rotate(45deg) translateY(-2px);
 }
