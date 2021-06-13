@@ -380,7 +380,7 @@ footer {
         padding-right: 0;
     }
 
-    #what {
+    #what img {
         padding-left: 32px;
         padding-right: 32px;
     }
@@ -471,6 +471,12 @@ footer {
         max-width: 88%;
         padding-left: 48px;
         padding-right: 48px;
+    }
+
+    #what img {
+        max-width: 750px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     #problem {
