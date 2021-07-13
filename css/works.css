@@ -225,6 +225,13 @@ nav {
     align-items: flex-start;
 }
 
+.work-image-single {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 main img {
     max-width: 100%;
 }
@@ -464,7 +471,7 @@ footer {
     }
 
     .video .work-image img {
-        height: 600px;
+        max-width: 750px;
     }
 
     .video .work-image-normal img {
@@ -473,10 +480,8 @@ footer {
         padding-right: 48px;
     }
 
-    #what img {
-        max-width: 750px;
-        padding-left: 0;
-        padding-right: 0;
+    .video .work-image-single img {
+        height: 400px;
     }
 
     #problem {
