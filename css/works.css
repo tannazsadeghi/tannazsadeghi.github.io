@@ -471,7 +471,7 @@ footer {
     }
 
     .video .work-image img {
-        max-width: 750px;
+        max-width: 900px;
     }
 
     .video .work-image-normal img {
@@ -481,7 +481,7 @@ footer {
     }
 
     .video .work-image-single img {
-        height: 400px;
+        height: 500px;
     }
 
     #problem {
