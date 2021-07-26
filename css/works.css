@@ -232,6 +232,30 @@ nav {
     justify-content: center;
     align-items: flex-start;
 }
+.work-image-h600 {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.work-image-h500 {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.work-image-h250 {
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.work-image-w850 {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
 
 main img {
     max-width: 100%;
@@ -475,18 +499,20 @@ footer {
         padding-right: 48px;
     }
 
-    .video .work-image img {
-        max-width: 90%;
-        padding-left: 48px;
-        padding-right: 48px;
+    .video .work-image-h600 img {
+        height: 600px;
     }
 
-    .video .work-image-normal img {
+    .video .work-image-h500 img {
+        height: 500px;
+    }
+
+    .video .work-image-h250 img {
+        height: 250px;
+    }
+
+    .video .work-image-w850 img {
         max-width: 850px;
-    }
-
-    .video .work-image-narrow img {
-        max-width: 600px;
     }
 
     #problem {
