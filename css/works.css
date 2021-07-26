@@ -226,7 +226,7 @@ nav {
     align-items: flex-start;
 }
 
-.work-image-single {
+.work-image-narrow {
     margin-top: 24px;
     display: flex;
     justify-content: center;
@@ -387,10 +387,10 @@ footer {
         padding-left: 32px;
     }
 
-    .video .work-image-normal img {
+    /* .video .work-image-normal img {
         padding-left: 0;
         padding-right: 0;
-    }
+    } */
 
     #what img {
         padding-left: 32px;
@@ -476,17 +476,17 @@ footer {
     }
 
     .video .work-image img {
-        max-width: 900px;
-    }
-
-    .video .work-image-normal img {
-        max-width: 88%;
+        max-width: 90%;
         padding-left: 48px;
         padding-right: 48px;
     }
 
-    .video .work-image-single img {
-        height: 500px;
+    .video .work-image-normal img {
+        max-width: 850px;
+    }
+
+    .video .work-image-narrow img {
+        max-width: 600px;
     }
 
     #problem {
