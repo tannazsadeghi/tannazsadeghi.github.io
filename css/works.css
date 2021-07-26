@@ -232,25 +232,36 @@ nav {
     justify-content: center;
     align-items: flex-start;
 }
+
 .work-image-h600 {
     margin-top: 24px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
 }
+
 .work-image-h500 {
     margin-top: 24px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
 }
+
 .work-image-h250 {
     margin-top: 36px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
 }
+
 .work-image-w850 {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.work-image-w1000 {
     margin-top: 24px;
     display: flex;
     justify-content: center;
@@ -513,6 +524,10 @@ footer {
 
     .video .work-image-w850 img {
         max-width: 850px;
+    }
+
+    .video .work-image-w1000 img {
+        max-width: 1000px;
     }
 
     #problem {
