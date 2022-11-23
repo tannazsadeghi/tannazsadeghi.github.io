@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="theme-color" content="#161D2C" />
-    <title>Vouchers | Tannaz Sadeghi</title>
+    <title>Beat Pickup Experience Improvement | Tannaz Sadeghi</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
@@ -20,7 +20,7 @@
             <h1>
                 Beat Pickup Experience Improvement
             </h1>
-            <img src="../assets/vouchers/pic.png" alt="Voucher Header Picture" />
+            <img src="../assets/beat/pic.png" alt="Beat Pickup Experience Improvement Header Picture" />
         </div>
     </div>
 
@@ -44,73 +44,152 @@
         <article class="work-article padding-bottom-40">
             <h2>Introduction</h2>
             <p class="work-text">
-                Snapp! is known as the Uber of Iran with more than 2 million rides per day and 30 million users. The company is the largest and fastest growing internet company in the Middle East.
+                Beat was a ride hailing service focused on LatAm markets. It had more than 25 million users across 5 countries. I was one of the designers working on the passenger's experience.                
                 <br/>
-                <br/> Missions were added to Snapp to reduce the cost of retention campaigns, enhance engagement, and increase the usage of our product.
+                <br/>
+                When you open a ride-hailing app, you are trusting the service to get your pick location correctly. You don't want to think too much about it. The only thing you want to do is select your destination and get a ride.
+                <br/>
+                <br/>
+                Well that was not the case with Beat! The pickup location was mostly incorrect because of GPS’s low accuracy in urban landscapes and our users have also complained about it several times in previous user researches. Therefore, it was vital to improve the experience when passengers choose their route. We have to ensure they’re gonna be picked up at the right spot and that drivers won’t have to waste time calling them or driving around the block to pick them up.
             </p>
+            <div class="work-image">
+                <img src="../assets/beat/1-intro.png" id="problem" alt="Beat Intro" />
+            </div>
         </article>
         <div class="back-gray">
             <article class="work-article">
-                <h2>Problem Statement</h2>
-                <p class="work-text">In the Coronavirus pandemic, our ride requests plummeted down so much that we couldn’t give away the normal vouchers like we used to because of the cost for the company. Aside from the cost, they wouldn’t bring loyalty and engagement from
-                    our users, so we had to make more efficient vouchers.
+                <h2>My Role</h2>
+                <p class="work-text">
+                    I worked closely with the respective Product Manager and our Researcher to create the best experience for our users.
+                    <br/>
+                    <br/>
+                    As part of the design process, I checked to see if there were any user insights about this problem that might help us. Firstly I jumped to our User Journey Map where we had added all the needs and pain points of our passengers. It gave us a better understanding of the whole picture and to think of a solution that impacts most of the funnel.
                 </p>
             </article>
-            <div class="work-image">
-                <img src="../assets/vouchers/icon-problem.svg" id="problem" alt="Problem Icon" />
-            </div>
         </div>
-        <div class="back-black padding-bottom-55">
+        <div class="back-white padding-bottom-55">
             <article class="work-article">
-                <h2>Solution</h2>
-                <p class="work-text-normal">We came up with three types of vouchers with gamification.
+                <h2>Problem Statement</h2>
+                <p class="work-text-normal">
+                    From the User Journey Map we gathered that passengers mostly check their pickup address from the Trip Confirmation screen or on the Request screen. This was not good as it would lead the passengers to cancel their request to go back and change their pickup address.
+                    <br/></br/>
+                    One of the major problems with inaccurate pickup was because passengers relied on Beat to explicitly set a precise pickup location. This didn’t happen most of the time. So it caused drivers going to inaccurate locations, passengers getting wrong ETAs, and also prices being calculated incorrectly.
+                    <br/></br/>
+                    Our data revealed that:
                 </p>
-                <br/>
+                <!-- <br/> -->
                 <ul>
-                    <li><strong>Target Based Vouchers</strong> <br/> A new type of conditional voucher that passengers must take rides with some conditions like service type, deadline time, etc. After meeting the target, the reward voucher code will be unlocked
-                        for the passenger and they can start using the code.
+                    <li><strong>30% of users change their pickup after cancelling a request.</strong>
                     </li>
-                    <br/>
-                    <li><strong>Direct Discount Vouchers</strong> <br/> It’s an alternative for cashback functionality that passengers redeem a code and get the reward discount in their next ride directly.
-                    </li>
-                    <br>
-                    <li><strong>Compound Vouchers</strong><br/> A promotion code with different discount values based on the time of code redemption.
+                    <!-- <br/> -->
+                    <li><strong>20% of passengers that land on the Trip Confirmation screen change their pick up address.</strong>
                     </li>
                 </ul>
-
+                <div class="work-image">
+                    <img src="../assets/beat/2-chart.png" id="problem" alt="Beat Chart" />
+                </div>
             </article>
         </div>
+        <div class="back-gray padding-bottom-0">
+            <article class="work-article">
+                <h2>Ideation</h2>
+                <p class="work-text-normal">
+                    It was clear that we needed to impact those numbers and make the pickup experience better. After a brainstorming session with PMs and Engineers, there were multiple great ideas like using live location, a step to confirm pickup location, using recents/favorites to snap the pickup location to that address, and showing the pickup address. 
+                    <br/></br/>
+                    Based on feasibility and time to market the quickest way to tackle this issue was snapping pickup location to a recent/favorite address and also showing the pickup address on the map at the start of the flow.
+                </p>
+            </article>
+        </div>
+
         <div class="back-white padding-bottom-0">
             <article class="work-article">
-                <h2>Final Designs</h2>
+                <h2>Exploration</h2>
+                <p class="work-text">
+                    To explore our accepted idea, I benchmarked our competitors to get some perspective. 
+                    <br/>
+                    <br/>
+                    I wanted to design something without changing the current design drastically so we could have a faster time to market. So I came up with these iterations for showing the pickup address on the map.
+                </p>
+                <div class="work-image">
+                    <img src="../assets/beat/3-exploration.png" id="problem" alt="Beat Chart" />
+                </div>
+            </article>
+        </div>
+
+        <div class="back-gray padding-bottom-0">
+            <article class="work-article">
+                <h2>Research</h2>
                 <p class="work-text-normal">
-                    For the designs, since we had vouchers before, I tried to keep them as simple and similar to that of previous designs so it would seem familiar to the users.
+                    Having finished the designs, I handed the prototypes over to the researcher of the team to put them through some usability tests. Usability tests helped us see if users understood when their pickup is wrong and how to change it. I wrote the scenarios for the tests, and also questions to be asked from the users.
+                    <br/></br/>
+                    Testing revealed that users failed at all steps of the flow. Neither of them saw the new pin nor the address in it. When they were told about the feature, they still couldn't read the address due to the small size of the address badge. They did not realize they could tap on it. Thus, it was time to consider another approach to the design.
                 </p>
             </article>
-            <div class="work-image-normal margin-top-29">
-                <img src="../assets/vouchers/target-based.png" alt="Target Based Vouchers" />
-            </div>
-            <div class="work-image-normal margin-top-0">
-                <img src="../assets/vouchers/direct-discount.png" alt="Direct Discount Vouchers" />
-            </div>
-            <div class="work-image-normal margin-top-0">
-                <img src="../assets/vouchers/compound.png" alt="Compound Vouchers" />
-            </div>
-            <div class="work-image-normal margin-top-0">
-                <img src="../assets/vouchers/empty.png" alt="Empty State" />
-            </div>
         </div>
-        <div class="back-white padding-bottom-49">
-            <article class="work-article last-work-article">
+
+        <div class="back-white padding-bottom-0">
+            <article class="work-article">
+                <h2>Reiteration</h2>
+                <p class="work-text">
+                    After analyzing the results of the test, I concluded that we might be able to grab passengers’ attention if we show something new, bold, and different on the map. As a result, I began iterating on a new design.
+                </p>
+                <div class="work-image">
+                    <img src="../assets/beat/4-reiteration.png" id="problem" alt="Beat Chart" />
+                </div>
+            </article>
+        </div>
+
+        <div class="back-gray padding-bottom-0">
+            <article class="work-article">
+                <h2>Design</h2>
+                <p class="work-text">
+                    After several feedback sessions with UX team, PM, and engineers, I selected the following version as the final design. However, it was time to test them again to make sure that we had hit the nail on the head this time.
+                    <br/></br/>
+                    The new pickup pin was well received after the second round of usability tests. Seven out of nine people were able to understand and use it and they actually loved the icons we showed on the pin, they said it made it clearer if you’re at home and assures you have the right pickup.
+                </p>
+                <div class="work-image">
+                    <img src="../assets/beat/5-designs.png" id="problem" alt="Beat Chart" />
+                </div>
+            </article>
+        </div>
+
+        <div class="back-white padding-bottom-0">
+            <article class="work-article">
+                <h2>Flow of changing pickup address</h2>
+                <p class="work-text">
+                    We added a new, clearer, and more intuitive touchpoint for changing pickup addresses, while also retaining the original.
+                    <br/>
+                    As a first touchpoint, we have the pickup pin on the map. Another option is to tap on the search field for destination, then tap on the pickup field to either write and search your address or select it on the map.
+                </p>
+                <div class="work-image">
+                    <img src="../assets/beat/6-flow.png" id="problem" alt="Beat Chart" />
+                </div>
+            </article>
+        </div>
+
+        <div class="back-gray padding-bottom-0">
+            <article class="work-article">
                 <h2>Results</h2>
                 <p class="work-text-normal">
-                    Based on our A/B tests, these mission-type vouchers have reduced the cost of the normal vouchers, and it has increased the conversion rate.
-                    <br/> <br/> Also, they brought back the daily rides count to its value before the pandemic and increased retention.
-                    <br /><br /> We ran a survey after releasing these vouchers the results showed that a good number of users copy the voucher code from their SMS messages. To fix this issue we’re planning to bring the missions in our Loyalty Club, and
-                    place a button in the checkout funnel to show active voucher codes from there. <br />
+                    The new pickup experience resulted in a <strong>12% reduction in passengers changing their pickup address</strong> on the Trip Confirmation screen and a <strong>3% reduction in cancellations due to incorrect pickup</strong>.
                 </p>
             </article>
         </div>
+
+        <div class="back-white padding-bottom-49">
+            <article class="work-article last-work-article">
+                <h2>What’s Next</h2>
+                <p class="work-text">
+                    The time to change pickup <strong>increased by 10%</strong>, which is not good and it was due to opening the Choose on Map screen. To decrease the number we wanted to try to open the Search screen with the addresses list instead.
+                    <br/><br/>
+                    Another improvement would be to allow passengers to alter their pickup address on the Request screen instead of canceling the entire request when an incorrect pickup occurs.
+                </p>
+                <div class="work-image">
+                    <img src="../assets/beat/7-whats-next.png" id="problem" alt="Beat Chart" />
+                </div>
+            </article>
+        </div>
+
         <div class="pagination">
             <div class="pagination-content">
                 <a class="prev-page" href="../chat/">
@@ -136,7 +215,7 @@
 
     <footer>
         <div class="footer-content">
-            <div>© 2021 Tannaz Sadeghi</div>
+            <div>© 2022 Tannaz Sadeghi</div>
             <div class="padding"></div>
             <div class="social">
                 <a href="mailto:tz.sadeghi95@gmail.com" target="_blank"><img src="../assets/icons/icon-mail.svg" alt="mail" /></a>
