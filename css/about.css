@@ -8,7 +8,7 @@
 .about-header .about-content {
     flex-basis: 555px;
     margin-right: 30px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: normal;
 }
 
@@ -31,7 +31,7 @@
 }
 
 #portrait {
-    max-width: 260px;
+    max-width: 360px;
 }
 
 .content {
@@ -91,8 +91,3 @@
         flex-basis: 555px;
     }
 }
-
-
-
-
-
