@@ -226,8 +226,8 @@ nav {
     align-items: flex-start;
 }
 
-.work-image-narrow {
-    margin-top: 24px;
+.work-image-small {
+    margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -422,11 +422,6 @@ footer {
         padding-left: 32px;
     }
 
-    /* .video .work-image-normal img {
-        padding-left: 0;
-        padding-right: 0;
-    } */
-
     #what img {
         padding-left: 32px;
         padding-right: 32px;
@@ -484,12 +479,16 @@ footer {
         margin: 40px auto 0 auto;
     }
 
-    .beat .work-image-normal img {
-        height: 600px;
+    .beat .work-image-small img {
+        max-width: 400px;
     }
     
     .beat .work-image img {
-        height: 600px;
+        max-width: 1200px;
+    }
+
+    .beat .work-image-w850 img {
+        max-width: 850px;
     }
 
     .chat .work-image img {
