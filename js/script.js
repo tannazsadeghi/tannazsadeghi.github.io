@@ -76,3 +76,26 @@ document.addEventListener('scroll', function (e) {
     ticking = true;
   }
 });
+
+const topLink = document.querySelector('.top-link');
+
+function updateTopLinkVisibility() {
+  if (!topLink) {
+    return;
+  }
+
+  const hasVerticalScroll =
+    document.documentElement.scrollHeight >
+    document.documentElement.clientHeight + 1;
+
+  topLink.style.display = hasVerticalScroll ? '' : 'none';
+}
+
+updateTopLinkVisibility();
+window.addEventListener('load', updateTopLinkVisibility);
+window.addEventListener('resize', updateTopLinkVisibility);
+
+if ('ResizeObserver' in window) {
+  const pageResizeObserver = new ResizeObserver(updateTopLinkVisibility);
+  pageResizeObserver.observe(document.documentElement);
+}
