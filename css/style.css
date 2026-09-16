@@ -11,12 +11,20 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: white;
+    background-color: #161d2c;
+    background-image: linear-gradient(
+        to bottom,
+        white 0,
+        white calc(100% - 100px),
+        #161d2c calc(100% - 100px),
+        #161d2c 100%
+    );
     font-size: 16px;
     color: #161d2c;
 
     position: relative;
     min-height: 100vh;
+    min-height: 100dvh;
     flex-direction:column;
 }
 
